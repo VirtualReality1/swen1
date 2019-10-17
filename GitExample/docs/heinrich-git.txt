@@ -1,0 +1,10 @@
+8. Updates / Kommentar wurde in die Historie übernommen und besitzt den Head, sowie Master Branch.
+ Head zeigt den aktuellen Zweig an, an dem Änderungen vorgenommen werden können. Master ist der Hauptzweig,
+ der alle Änderungen beinhaltet.
+ 
+ 14. Neue Branches werden als neuer Pfad dargestellt. Werden zwei Pfade gemerged führt der neu erstellte Pfad wieder zurück auf 
+ den Master branch.
+ 
+ 17. Zuerst wird ein neuer Branch erzeugt, auf dem die Änderungen vorgenommen werden sollen. 
+ auf diesem neuen Branch werden die Änderungen dann vorgenommen. Ist deer Bug behoben, wird die aktuelle version mit dem
+ Master Branch gemerged. Dabei werden die Änderungen auf den "Hauptzweig" übernommen. 
