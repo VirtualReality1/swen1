@@ -10,7 +10,12 @@ public class First {
 	System.out.println("First Class has been released.");
 System.out.println("This Bug has been fixed!");
 
+
 System.out.println("A bug came up, go fix it4!");
+
+System.out.println("A bug came up, go fix it!!!");
+System.out.println("Fixed bug!");
+
 	}
 
 }
