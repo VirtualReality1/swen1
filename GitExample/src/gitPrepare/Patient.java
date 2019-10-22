@@ -11,6 +11,7 @@ public class Patient {
 	private String paLastName;
 	private boolean checkID;
 	private Date Geburtsdatum;
+	private String Adresse;
 
 	public Patient(String PaFirstName, String PaLastName) {
 		this.PaFirstName = PaFirstName;
@@ -36,6 +37,14 @@ public class Patient {
 	
 	public Date getGebDatum() {
 		return Geburtsdatum;
+	}
+	
+	public void setAddress(String addr) {
+		Adresse = addr;
+	}
+	
+	public String getAdress() {
+		return Adresse;
 	}
 
 }
