@@ -1,5 +1,6 @@
 package gitPrepare;
 
+import java.util.Date;
 import java.util.regex.*;
 
 import org.omg.Messaging.SyncScopeHelper;
@@ -9,6 +10,7 @@ public class Patient {
 	private String PaFirstName;
 	private String paLastName;
 	private boolean checkID;
+	private Date Geburtsdatum;
 
 	public Patient(String PaFirstName, String PaLastName) {
 		this.PaFirstName = PaFirstName;
@@ -26,6 +28,14 @@ public class Patient {
 			throw new IllegalArgumentException("Patientenidentifikationsnummer muss aus 2 Buchstaben am Anfang gefolgt von 8 Zahlen bestehen.");
 		}
 		return checkID;
+	}
+	
+	public void setGebDatum(Date dob) {
+		Geburtsdatum = dob;
+	}
+	
+	public Date getGebDatum() {
+		return Geburtsdatum;
 	}
 
 }
