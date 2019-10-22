@@ -31,6 +31,10 @@ public class Patient {
 		return checkID;
 	}
 	
+	public String getPatID() {
+		return PatID;
+	}
+	
 	public void setGebDatum(Date dob) {
 		Geburtsdatum = dob;
 	}
@@ -46,5 +50,12 @@ public class Patient {
 	public String getAdress() {
 		return Adresse;
 	}
-
+	
+	public String getVorname() {
+		return PaFirstName;
+	}
+	
+	public String getNachname() {
+		return paLastName;
+	}
 }
